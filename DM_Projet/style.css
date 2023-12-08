@@ -1,0 +1,71 @@
+/* Style global du body */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #c9c9c9;
+}
+
+/* Style pour le conteneur du formulaire */
+#quiz-form {
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f0f0;
+}
+
+/* Style pour un conteneur d'alerte */
+#alert {
+    display: none;
+    border: 2px solid;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Style pour un conteneur des questions */
+.question-item {
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour le titre de l'alerte */
+.alert-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Styles pour les différents alertes */
+.success {
+    background-color: #EBFFE5;
+    border-color: #4CAF50;
+    color: #4CAF50;
+}
+
+.partial {
+    background-color: #FFCBA4;
+    border-color: #FE5000;
+    color: #FE5000;
+}
+
+.failure {
+    background-color: #FAA0A0;
+    border-color: #CD001A;
+    color: #CD001A;
+}
